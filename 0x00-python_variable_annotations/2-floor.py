@@ -2,7 +2,6 @@
 """
 function to return d floor of a float
 """
-import math
 
 
 def floor(n: float) -> float:
