@@ -9,5 +9,5 @@ def sum_list(input_list: list) -> float:
     """
     input_list: list to sum and return the values of
     """
-    return(math.fsum(input_list))
+    return(float(math.fsum(input_list)))
 
