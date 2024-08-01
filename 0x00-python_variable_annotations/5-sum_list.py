@@ -3,9 +3,10 @@
 Function 2 return sum of values in a list
 """
 import math
+from typing import List
 
 
-def sum_list(input_list: list) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     input_list: list to sum and return the values of
     """
