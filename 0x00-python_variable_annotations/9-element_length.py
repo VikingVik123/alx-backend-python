@@ -5,7 +5,7 @@ Function to determine length
 from typing import List, Tuple, Any
 
 
-def element_length(lst: List[Any]) -> List[Tuple[Any, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     initialization
     """
