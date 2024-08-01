@@ -4,7 +4,7 @@ Func 2 return the str representation of a float
 """
 
 
-def to_str(n: float) -> float:
+def to_str(n: float) -> str:
     """
     n: float to be converted to string
     """
