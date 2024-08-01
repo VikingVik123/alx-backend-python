@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+"""
+Function to satisfy task 7
+"""
 from typing import List, Union, Tuple
 
 
