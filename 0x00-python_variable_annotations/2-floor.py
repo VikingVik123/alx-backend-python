@@ -4,7 +4,7 @@ function to return d floor of a float
 """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
     n: float value which has its floor displayed
     """
