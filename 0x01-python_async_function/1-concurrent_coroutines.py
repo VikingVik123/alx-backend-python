@@ -10,6 +10,7 @@ from typing import List
 wait_random_module = importlib.import_module("0-basic_async_syntax")
 wait_random = wait_random_module.wait_random
 
+
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
     Initializes wait_n function task
