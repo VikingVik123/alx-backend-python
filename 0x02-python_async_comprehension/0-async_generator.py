@@ -8,7 +8,7 @@ import random
 from typing import Generator
 
 
-async def async_generator() -> Generator[float, NoneType, NoneType]:
+async def async_generator() -> Generator[float, None, None]:
     """
     initializes async_generation function
     numbers: stores the random numbers generated
