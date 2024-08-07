@@ -5,10 +5,10 @@ Returns a list of values
 """
 import asyncio
 import random
-from typing import List
+from typing import Generator
 
 
-async def async_generator() -> List[float]:
+async def async_generator() -> Generator[float, NoneType, NoneType]:
     """
     initializes async_generation function
     numbers: stores the random numbers generated
