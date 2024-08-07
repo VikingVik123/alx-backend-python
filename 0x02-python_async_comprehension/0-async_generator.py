@@ -16,4 +16,5 @@ async def async_generator() -> List[float]:
     numbers = random.uniform(0, 10)
     for _ in range(10):
         await asyncio.sleep(1)
+
         yield numbers
